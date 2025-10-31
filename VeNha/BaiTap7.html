@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>BaiTap7</title>
+<style>
+  /* Toàn trang */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+
+  /* Chữ wrapper phía trên - canh trái cùng header */
+  .label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    width: 350px;             /* bằng chiều rộng wrapper */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;         /* canh chữ sang trái */
+    padding-left: 7px;        /* tạo cảm giác thẳng hàng với chữ header */
+  }
+
+  /* Khung tổng */
+  #wrapper {
+    width: 350px;
+    border: 2px solid black;
+    margin: 0 auto;
+    text-align: left;
+    box-shadow: -8px 8px 8px rgba(0,0,0,0.3); /* đổ bóng bên trái và dưới */
+    padding: 5px;
+  }
+
+  /* Header */
+  header {
+    border: 1px solid black;
+    height: 50px;
+    text-align: left;
+    line-height: 50px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+  }
+
+  /* Nav và Main nằm ngang */
+  nav {
+    border: 1px solid black;
+    width: 70px;
+    height: 180px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 5px;      /* canh chữ lề trái */
+    margin-right: 5px;
+  }
+
+  main {
+    border: 1px solid black;
+    width: 250px;
+    height: 180px;
+    display: inline-block;
+    text-align: left;
+    padding-left: 5px;      /* canh chữ lề trái */
+    vertical-align: top;    /* đảm bảo chữ nằm ở trên cùng */
+  }
+
+  /* Footer */
+  footer {
+    border: 1px solid black;
+    height: 40px;
+    text-align: left;
+    line-height: 40px;
+    margin-top: 5px;
+    padding-left: 5px;
+  }
+</style>
+</head>
+
+<body>
+  <div class="label">wrapper</div>
+  <div id="wrapper">
+    <header>header</header>
+    <nav>nav</nav>
+    <main>main</main>
+    <footer>footer</footer>
+  </div>
+</body>
+</html>
